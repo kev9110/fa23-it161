@@ -1,6 +1,6 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet');
 
 html {
     background-color: lightgray;
@@ -12,12 +12,16 @@ html {
     background-size: 2000px 1200px;
 }
 
-body{
-    margin:0; /* removes gap at top of page */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #4A90E2;
+    background-color: #D8D8D8;
 }
 
+/* ... Other styles ... */
+
 ::selection {
-    color: #000; 
+    color: #4A90E2; 
     background: #ff0;
 }
 
